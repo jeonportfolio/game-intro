@@ -32,4 +32,10 @@
 
 ## section 이미지
 
-- 로고 출처<a href="https://kr.freepik.com/free-vector/play-vibrant-gradient-typography_4561113.htm#fromView=search&page=1&position=5&uuid=da302531-8afb-4f85-a961-96d48a5b8caf">
+- 로고 `vector icon`사용<br/>
+- 각 로고마다 각각 나타나는 순차적 애니메이션 적용 (gsap사용 -> delay (index를 활용))<br/>
+
+## 공지사항
+
+- swiper 사용 
+- 아이콘 -> 

@@ -37,4 +37,18 @@ window.addEventListener('scroll', _.throttle(function(){
             display: 'block'
         });
     }
-},300));
+    },300));
+
+    //visual 이미지 순차적으로 생성
+
+    const fadeEls = document.querySelectorAll('.visual .fade-in');
+    fadeEls.forEach(function(fadeEl, index){
+            gsap.to(fadeEl,1,{
+                delay:(index + 1) * .5,
+                opacity:1
+            });
+    });
+
+
+
+
