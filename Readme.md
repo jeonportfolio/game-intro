@@ -35,7 +35,7 @@
 - 로고 `vector icon`사용<br/>
 - 각 로고마다 각각 나타나는 순차적 애니메이션 적용 (gsap사용 -> delay (index를 활용))<br/>
 
-## 공지사항
+## 공지사항 & 이미지 슬라이더 <br/>
 
-- swiper 사용 
-- 아이콘 -> 
+- swiper 사용 `http://swiperjs.com`<br/>
+- left, margin-left 속성 사용해서 이미지 슬라이더 정가운데 위치로 만들기

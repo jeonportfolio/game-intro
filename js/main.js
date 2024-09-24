@@ -49,6 +49,15 @@ window.addEventListener('scroll', _.throttle(function(){
             });
     });
 
+    //공지사항 swiper
+
+    new Swiper('.notice-line .swiper-container', {
+            direction:'vertical',
+            autoplay: true,
+            loop: true,
+    });
+
+
 
 
 
