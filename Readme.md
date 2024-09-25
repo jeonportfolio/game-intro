@@ -38,4 +38,7 @@
 ## 공지사항 & 이미지 슬라이더 <br/>
 
 - swiper 사용 `http://swiperjs.com`<br/>
-- left, margin-left 속성 사용해서 이미지 슬라이더 정가운데 위치로 만들기
+- left, margin-left 속성 사용해서 이미지 슬라이더 정가운데 위치로 만들기<br/>
+- loop를 사용해서 반복적 회전구조 만들기<br/>
+- slide -> opacity를 통해 현재의 슬라이드 구분<br/>
+- 슬라이드의 위치표시 및 이동 (swiper -> pagination, navigation)<br/>
