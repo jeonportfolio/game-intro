@@ -42,3 +42,9 @@
 - loop를 사용해서 반복적 회전구조 만들기<br/>
 - slide -> opacity를 통해 현재의 슬라이드 구분<br/>
 - 슬라이드의 위치표시 및 이동 (swiper -> pagination, navigation)<br/>
+- 슬라이드 토글을 통해 슬라이더의 숨김 및 보임처리 <br/>
+
+
+## 유튜브 영상 사용하기 (API)
+
+- 16:9의 비율로 영상 제공- -> padding-top:56.25%

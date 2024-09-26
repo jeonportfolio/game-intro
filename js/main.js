@@ -76,6 +76,22 @@ window.addEventListener('scroll', _.throttle(function(){
     });
 
 
+    // 슬라이더 토글 
+
+    const promotionEl = document.querySelector('.promotion');
+    const promotionToggleBtn = document.querySelector('.toggle-promotion');
+    let isHidePromotion = false;
+    promotionToggleBtn.addEventListener('click', function(){
+        isHidePromotion = !isHidePromotion
+        if(isHidePromotion) {
+            //숨김
+            promotionEl.classList.add('hide');
+        }else {
+            // 나타남
+            promotionEl.classList.remove('hide');
+
+        }
+    });
 
 
 
