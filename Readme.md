@@ -1,4 +1,4 @@
-# java script 게임 소개 페이지 만들기 <br/>
+# 블로그 소개 페이지 만들기 <br/>
 
 ## reset.css cdn<br/>
 
@@ -47,4 +47,6 @@
 
 ## 유튜브 영상 사용하기 (API)
 
-- 16:9의 비율로 영상 제공- -> padding-top:56.25%
+- 16:9의 비율로 영상 제공- -> padding-top:56.25%<br/>
+- `youtube iframe api`사용  <br/>
+- `https://www.youtube.com/watch?v=mOFoh9FUR8w`영상출처
