@@ -49,4 +49,5 @@
 
 - 16:9의 비율로 영상 제공- -> padding-top:56.25%<br/>
 - `youtube iframe api`사용  <br/>
-- `https://www.youtube.com/watch?v=mOFoh9FUR8w`영상출처
+- `https://www.youtube.com/watch?v=V_oRJZbSuk0`영상출처
+- 영상 위 floating 애니메이션 효과 (gsap yoyo, easing효과)

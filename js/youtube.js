@@ -8,11 +8,11 @@
   
    function onYouTubeIframeAPIReady() {
     new YT.Player('player', {
-       videoId: 'mOFoh9FUR8w',
+       videoId: 'V_oRJZbSuk0',
        playerVars:{
          autoplay:true,
          loop:true,
-         playlist:'mOFoh9FUR8w',
+         playlist:'V_oRJZbSuk0',
        },
        events: {
             onReady: function(event) {
