@@ -1,5 +1,9 @@
 # 블로그 소개 페이지 만들기 <br/>
 
+## 이미지 편집
+
+- FIGMA unplash 사용 <br/>
+
 ## reset.css cdn<br/>
 
 - cdn으로 브라우저의 전체속성 초기화<br/>
@@ -49,5 +53,10 @@
 
 - 16:9의 비율로 영상 제공- -> padding-top:56.25%<br/>
 - `youtube iframe api`사용  <br/>
-- `https://www.youtube.com/watch?v=V_oRJZbSuk0`영상출처
-- 영상 위 floating 애니메이션 효과 (gsap yoyo, easing효과)
+- `https://www.youtube.com/watch?v=V_oRJZbSuk0`영상출처<br/>
+- 영상 위 floating 애니메이션 효과 (gsap yoyo, easing효과)<br/>
+
+# 애니메이션 효과 
+
+- section별로 position fixed효과로 애니메이션 효과<br/>
+- transform:rotateY , perspective 를 활용한 3D애니메이션 효과 <br/>

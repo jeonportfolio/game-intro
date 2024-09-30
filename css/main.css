@@ -784,5 +784,60 @@ header .badges .badge {
 }
 
 
+/* bus-app */
+
+.bus-app {
+    background-image: url("../images/bus-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:  fixed;
+    background-size: cover;
+}
+
+
+.bus-app .inner {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}   
+
+
+/* bus-app-medal */
+
+.bus-app .medal {
+    width: 334px;
+    height: 334px;
+    perspective: 600px;
+}
+
+.bus-app .medal .front, 
+.bus-app .medal .back {
+    width: 334px;
+    height: 334px;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+
+.bus-app .medal .front {
+    position: absolute;
+    transform: rotateY(0deg);
+}
+
+.bus-app .medal:hover .front {
+    transform: rotateY(180deg);
+}
+
+
+.bus-app .medal .back {
+    transform: rotateY(-180deg);
+}
+
+
+.bus-app .medal:hover .back {
+    transform: rotateY(0deg);
+
+}   
 
 
