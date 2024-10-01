@@ -60,3 +60,8 @@
 
 - section별로 position fixed효과로 애니메이션 효과<br/>
 - transform:rotateY , perspective 를 활용한 3D애니메이션 효과 <br/>
+
+## 스크롤 계산 
+
+- `scrollMagic cdn` 사용
+

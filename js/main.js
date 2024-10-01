@@ -118,5 +118,18 @@ window.addEventListener('scroll', _.throttle(function(){
     floatingObject('.floating3', 1.5, 20);
 
     
+// scrollMagic 
+
+const spyEls = document.querySelectorAll('section.scroll-spy');
+spyEls.forEach(function(spyEl){
+    new ScrollMagic
+        .Scene({
+            triggerElement: spyEl, //보여짐 여부를 감시할 요소를 지정 
+            triggerHook: .8, //보여지는 화면은 0과 1 거기서 0.8의 뷰포트에 훅이 걸린다
+            
+        })
+        .setClassToggle()
+        .addTo();
+});
 
 
