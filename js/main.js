@@ -128,8 +128,8 @@ spyEls.forEach(function(spyEl){
             triggerHook: .8, //보여지는 화면은 0과 1 거기서 0.8의 뷰포트에 훅이 걸린다
             
         })
-        .setClassToggle()
-        .addTo();
+        .setClassToggle(spyEl, 'show')
+        .addTo(new ScrollMagic.Controller());
 });
 
 

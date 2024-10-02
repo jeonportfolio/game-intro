@@ -56,12 +56,15 @@
 - `https://www.youtube.com/watch?v=V_oRJZbSuk0`영상출처<br/>
 - 영상 위 floating 애니메이션 효과 (gsap yoyo, easing효과)<br/>
 
-# 애니메이션 효과 
+## 애니메이션 효과 
 
 - section별로 position fixed효과로 애니메이션 효과<br/>
 - transform:rotateY , perspective 를 활용한 3D애니메이션 효과 <br/>
 
 ## 스크롤 계산 
 
-- `scrollMagic cdn` 사용
+- `scrollMagic cdn` 사용<br/>
+- scroll-spy 클래스를 사용하여 지나는 지점은 show를 추가해 구분하여 애니메이션 추가<br/>
+- css에서 translateX를 이용해서 x축 변경과 delay 효과 적용 <br/>
+
 
