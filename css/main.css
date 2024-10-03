@@ -933,8 +933,159 @@ header .badges .badge {
 
 }
 
+/* stack */
+
+.stack {
+    background-color: #131528;
+}
+
+.stack .inner {
+    padding: 40px 0;
+}
+
+.stack .swiper-container {
+    width: 100%;
+    height: 40px;
+}
+
+.stack .swiper-prev,
+.stack .swiper-next {
+    width: 42px;
+    height: 42px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: .3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+} 
+
+.stack .swiper-prev {
+    left: -100px;
+}
 
 
+.stack .swiper-next {
+    right: -100px;
+}
 
 
+.stack .swiper-prev:hover,
+.stack .swiper-next:hover {
+    background-color: #fff;
+    color: #000;
+}
 
+/* footer */
+
+footer {
+    background-color: #131528;
+    border-top: 1px solid #fff;
+}
+
+footer .inner {
+    padding: 40px 0 60px 0;
+}
+
+
+footer .menu {
+    display: flex;
+    justify-content: center;
+}
+
+footer .menu li {
+    position: relative;
+}
+
+footer .menu li::before {
+    content: '';
+    width: 3px;
+    height: 15px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: -1px;
+}
+
+footer .menu li:last-child::before {
+    display: none;
+}
+
+footer .menu  li a {
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+    display: inline-block;
+}
+
+footer .btn-group {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .btn-group .btn {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+footer .btn-group .btn:last-child {
+    margin-right: 0;
+}
+
+footer .info {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer .info span {
+    margin-right: 20px;
+    color: #999;
+    font-size: 14px;
+}
+
+footer .info span :last-child {
+    margin-right: 0;
+}
+
+footer .copyright {
+    color: #999;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+
+footer .logo {
+    padding: 30px;
+    margin: 30px auto 0;
+}
+
+
+/* 상단 스크롤  */
+
+#to-top {
+    width: 42px;
+    height: 42px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+}

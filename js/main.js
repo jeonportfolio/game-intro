@@ -21,6 +21,7 @@ searchInputEl.addEventListener('blur', function(){
 //배지(스크롤 부하 방지)
 
 const badgeEl = document.querySelector('header .badges');
+const toTopEl = document.querySelector('#to-top');
 
 window.addEventListener('scroll', _.throttle(function(){
     console.log(window.scrollY);
@@ -30,14 +31,32 @@ window.addEventListener('scroll', _.throttle(function(){
             opacity:0,
             display: 'none'
         });
+        // to-top 스크롤 버튼 보이기
+        gsap.to(toTopEl, .2, {
+            x: 0
+        })
+
     }else {
         //배지 보여주기
         gsap.to(badgeEl, .6, {
             opacity:1,
             display: 'block'
         });
+        // to-top 스크롤 버튼 사라지기
+        gsap.to(toTopEl, .2, {
+            x: 100
+        })
     }
     },300));
+
+    // 상단으로 스크롤 올리기 
+
+    
+    toTopEl.addEventListener('click', function(){
+            gsap.to(window,.7,{
+                scrollTo:0
+            });
+    });
 
     //visual 이미지 순차적으로 생성
 
@@ -74,6 +93,20 @@ window.addEventListener('scroll', _.throttle(function(){
                 nextEl:'.promotion .swiper-next'
              }
     });
+
+    // 푸터 슬라이드 swiper
+
+    new Swiper ('.stack .swiper-container', {
+        autoplay: true,
+        loop:true,
+        spaceBetween:30,
+        slidesPerView:5,
+        navigation:{
+            prevEl:'.stack .swiper-prev',
+            nextEl:'.stack .swiper-next'
+        }
+    });
+
 
 
     // 슬라이더 토글 
@@ -132,4 +165,8 @@ spyEls.forEach(function(spyEl){
         .addTo(new ScrollMagic.Controller());
 });
 
+// footer 현재 년도 계산 
+
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear();
 
