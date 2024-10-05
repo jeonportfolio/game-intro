@@ -244,8 +244,8 @@ header .main-menu .item .item__name {
 }
 
 header .main-menu .item:hover .item__name{
-    background-color: #2c2a29;
-    color: #a8c274;
+    background-color: #131528;
+    color: #e59eee;
     border-radius: 6px 6px;
 }
 
@@ -262,7 +262,7 @@ header .main-menu .item:hover .item__contents {
 
 
 header .main-menu .item .item__contents .contents__menu {
-    background-color: #312a26
+        background-color: #131528;
 }
 
 header .main-menu .item .item__contents .contents__menu > ul {
@@ -296,11 +296,11 @@ header .main-menu .item .item__contents .contents__menu > ul > li ul li a {
 }
 
 header .main-menu .item .item__contents .contents__menu > ul > li ul li:hover {
-        color: #669900;
+    color: #e59eee;
 }
 
 header .main-menu .item .item__contents .contents__menu > ul > li ul li a:hover {
-    color: #669900;
+    color: #e59eee;
 }
 
 
@@ -312,7 +312,7 @@ header .main-menu .item .item__contents .contents__texture {
 }
 
 header .main-menu .item .item__contents .contents__texture h4{
-    color: #669900;
+    color: #e59eee;
     font-weight: 700;
 }
 
