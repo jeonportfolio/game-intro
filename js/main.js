@@ -170,3 +170,11 @@ spyEls.forEach(function(spyEl){
 const thisYear = document.querySelector('.this-year');
 thisYear.textContent = new Date().getFullYear();
 
+
+//메일보내기 
+
+function sendEmail() {
+    const email = "etoile929@naver.com"; // 수신할 이메일 주소
+   
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}

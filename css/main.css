@@ -137,7 +137,7 @@ header > .inner {
 header .logo {
     height: 96px;
     position: absolute;
-    top: 0;
+    top:50px;
     bottom: 0;
     left: 0;
     margin: auto ;
