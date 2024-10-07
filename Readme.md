@@ -74,4 +74,11 @@
 - 사용자가 다시 아래로 스크롤 하게되면 다시 재생성 됨-> 뱃지가 기준<br/>
 
 
+## NETLIFY 배포 & 로그인 별도 branch 생성
+
+- `git branch signin` -> signin 브랜치 생성 <br/>
+- `git checkout signin` -> signin으로 이동 럇 <br/>
+
+
+
 
