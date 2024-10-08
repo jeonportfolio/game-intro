@@ -78,6 +78,9 @@
 
 - `git branch signin` -> signin 브랜치 생성 <br/>
 - `git checkout signin` -> signin으로 이동  <br/>
+- 두 브랜치에서 모두 공통으로 사용하는  common.js ,common.css를 만든다 
+- `git push origin signin` 별도의 브랜치로 푸쉬
+- 깃허브에서 `pull request`로 병합 
 
 
 
