@@ -77,7 +77,7 @@
 ## NETLIFY 배포 & 로그인 별도 branch 생성
 
 - `git branch signin` -> signin 브랜치 생성 <br/>
-- `git checkout signin` -> signin으로 이동 럇 <br/>
+- `git checkout signin` -> signin으로 이동  <br/>
 
 
 
