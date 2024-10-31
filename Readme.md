@@ -74,19 +74,16 @@
 - 사용자가 다시 아래로 스크롤 하게되면 다시 재생성 됨-> 뱃지가 기준<br/>
 
 
-<<<<<<< HEAD
 ## NETLIFY 배포 & 로그인 별도 branch 생성
 
 - `git branch signin` -> signin 브랜치 생성 <br/>
 - `git checkout signin` -> signin으로 이동  <br/>
-- 두 브랜치에서 모두 공통으로 사용하는  common.js ,common.css를 만든다 
-- `git push origin signin` 별도의 브랜치로 푸쉬
-- 깃허브에서 `pull request`로 병합 
-
-=======
-## NETLIFY 배포 & signin 브랜치 생성
-- 두 브랜치에서 모두 공통으로 사용하는  common.js ,common.css를 만든다 
->>>>>>> ced54d67ffe50c5858fcc3f57cc8b731ed67fd2b
+- 두 브랜치에서 모두 공통으로 사용하는  common.js ,common.css를 만든다 <br/>
+- `git push origin signin` 별도의 브랜치로 푸쉬<br/>
+- 깃허브에서 `pull request`로 병합 <br/>
+- `git reset --hard HEAD~1` -> 뒤로 한 버젼으로 되돌리기<br/>
+- `git reset --hard ORIG_HEAD` -> 되돌리기 전상태로 복구 <br/>
+- 깃클론시 브랜치 모두 보기 `git branch -r`<br/>
 
 
 
